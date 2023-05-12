@@ -27,7 +27,7 @@ class MorphingAppBar extends StatelessWidget implements PreferredSizeWidget {
     this.foregroundColor,
     this.iconTheme,
     this.actionsIconTheme,
-    this.textTheme,
+    //this.textTheme,
     this.primary = true,
     this.centerTitle,
     this.excludeHeaderSemantics = false,
@@ -87,8 +87,8 @@ class MorphingAppBar extends StatelessWidget implements PreferredSizeWidget {
   /// See [AppBar.actionsIconTheme]
   final IconThemeData? actionsIconTheme;
 
-  /// See [AppBar.textTheme]
-  final TextTheme? textTheme;
+  // /// See [AppBar.textTheme]
+  // final TextTheme? textTheme;
 
   /// See [AppBar.primary]
   final bool primary;
